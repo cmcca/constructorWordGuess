@@ -1,14 +1,3 @@
-// The file containing the logic for the course of the game, which depends on `Word.js` and:
-
-//   * Randomly selects a word and uses the `Word` constructor to store it
-
-//   * Prompts the user for each guess and keeps track of the user's remaining guesses
-
-// 3. `Letter.js` *should not* `require` any other files.
-
-// 4. `Word.js` *should only* require `Letter.js`
-
-
 var inquirer = require("inquirer");
 var word = require("./word.js")
 var wordArray = ["spielberg","lucas","aronofsky", "nolan", "jonze","kubrick","allen","lee","tarantino","scorsese","hughes","lynch","hitchcock","anderson","fincher","cameron","coppola","scott","burton","lee","jackson","stone","howard","carpenter","fellini","soderbergh","herzog"];
